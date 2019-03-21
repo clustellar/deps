@@ -21,7 +21,7 @@ fetch_urls() {
   for url in $(cat $urlfile); do
     #ofile=$(echo $url | md5sum | cut -d' ' -f1)
     echo "[GET] ${ofile} - $url"
-    curl -kL $url > $datadir/$url
+    curl -kL $url > $datadir/${url/\//_}
     # curl -kL $url | gzip > $datadir/${ofile}.gz
   done
 }
