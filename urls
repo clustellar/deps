@@ -13,3 +13,4 @@ https://github.com/kubeless/kubeless/releases/download/v1.0.2/kubeless-v1.0.2.ya
 https://getambassador.io/yaml/ambassador/ambassador-rbac.yaml
 https://www.getambassador.io/yaml/consul/ambassador-consul-connector.yaml
 https://www.getambassador.io/yaml/ambassador/ambassador-service.yaml
+https://github.com/kubernetes-sigs/kind/releases/download/v0.5.1/kind-Linux-amd64
